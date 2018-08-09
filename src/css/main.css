@@ -1,0 +1,15 @@
+body{
+  background:yellow;
+}
+#img{
+  width:300px;
+  height:400px;
+  transform: translateX(30px);
+  background:url('../img/1.jpg')
+}
+.title{
+  color:red;
+}
+.nav{
+  color:#000000;
+}

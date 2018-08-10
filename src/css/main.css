@@ -2,6 +2,8 @@
   width: 300px;
   height: 300px;
   background: url('../img/2.jpg') no-repeat center center;
+  transform:translateX(100px);
+  box-shadow: 10px 40px 10px #f60;
   color: #f60;
   border: 1px solid #f60;
 }
@@ -13,4 +15,13 @@
 }
 .last{
   color: #f60;
+}
+#he{
+  font-size: 18px;
+  color: #000;
+  line-height: 30px;
+}
+#aaa{
+  color: #000;
+  line-height: 30px;
 }

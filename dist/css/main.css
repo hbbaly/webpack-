@@ -2,6 +2,9 @@
   width: 300px;
   height: 300px;
   background: url(http://localhost:3000/img/00eff2a2a5bca6794b8da89f52250825.jpg) no-repeat center center;
+  -webkit-transform: translateX(100px);
+  transform: translateX(100px);
+  box-shadow: 10px 40px 10px #f60;
   color: #f60;
   border: 1px solid #f60;
 }
@@ -12,3 +15,4 @@
   border: 4px solid #f60;
   border-radius: 10px;
 }
+/*# sourceMappingURL=main.css.map*/

@@ -9,6 +9,7 @@ const website = {
     publicPath:'http://localhost:3000/'
 }
 module.exports = {
+    devtool:'source-map',
     entry:"./src/entry.js",
     output:{
         path:path.resolve(__dirname,'dist'),
@@ -81,7 +82,7 @@ module.exports = {
         ]
     },
     plugins:[
-        new uglify(),
+        // new uglify(),
         new htmlPlugin({
             minify:{
                 removeAttributeQuotes:true
